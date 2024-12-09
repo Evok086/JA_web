@@ -1,10 +1,10 @@
-    <header class="bg-radial from-orange-700 to-orange-100 fixed top-0 left-0 w-full  border-b shadow-md z-50">
-        <dialog class="w-full backdrop:bg-gray-100 backdrop:opacity-80">
+    <header class="bg-teal-700 from-orange-700 to-orange-100 fixed top-0 left-0 w-full border-b shadow-md z-50">
+        <dialog class="w-full backdrop:bg-gray-100 backdrop:opacity-80 rounded-lg">
             <div
-                class="p-4 font-medium  md:p-0 border border-gray-800 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                <form class="float-right" method="dialog">
+                class="p-4 font-medium bg-teal-700 md:p-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:dark:bg-gray-900 dark:border-gray-700">
+                <form class="float-right bg-teal-700" method="dialog">
                     <button
-                        class="right text-gray-600 bg-transparent hover:bg-gray-300 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                        class="right bg-teal-600 text-gray-600 hover:bg-gray-300 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:text-white"
                         data-modal-hide="default-modal">
                         <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
                             viewBox="0 0 14 14">
@@ -14,37 +14,37 @@
                         <span class="sr-only">fermer</span>
                     </button>
                 </form>
-                <ul class="flex flex-col gap-2">
+                <ul class="flex flex-col gap-2 bg-teal-700">
                     <li>
-                        <a href="index.php"
-                            class="border border-gray-700 block py-2 px-3 text-orange-500 inline-block rounded md:bg-transparent
+                        <a href="index.php?page=home"
+                            class="mb-2 text-orange-500 inline-block rounded md:bg-transparent
                 md:text-yellow-700 md:p-0 dark:text-white md:dark:text-yellow-500 hover:text-orange-500 transition-all duration-500"
                             aria-current="page">Accueil</a>
                     </li>
                     <li>
                         <a href="index.php?page=planning"
-                            class="border border-gray-700 block py-2 px-3 inline-block rounded md:bg-transparent
+                            class="mb-2 inline-block rounded md:bg-transparent
                 md:text-yellow-700 md:p-0 dark:text-white md:dark:text-yellow-500 hover:text-orange-500 transition-all duration-500"
                             aria-current="page">Planning</a>
                     </li>
                     <li>
                         <a href="index.php?page=photo"
-                            class="border border-gray-700 block py-2 px-3 inline-block rounded md:bg-transparent
+                            class="mb-2 inline-block rounded md:bg-transparent
                 md:text-yellow-700 md:p-0 dark:text-white md:dark:text-yellow-500 hover:text-orange-500 transition-all duration-500"
                             aria-current="page">Photos</a>
                     </li>
                     <li>
                     <a href="index.php?page=apropos"
-                    class="border border-gray-700 block py-2 px-3 inline-block rounded md:bg-transparent
+                    class="inline-block rounded md:bg-transparent
                 md:text-yellow-700 md:p-0 dark:text-white md:dark:text-yellow-500 hover:text-orange-500 transition-all duration-500"
                             aria-current="page">À Propos</a>
                     </li>
                 </ul>
             </div>
         </dialog>
-        <nav class="w-full bg-white border-gray-200 dark:bg-gray-900">
+        <nav class="w-full  bg-teal-700">
             <div class="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto p-4">
-                <a href="index.php" class="flex items-center space-x-3 
+                <a href="index.php?page=home" class="flex items-center space-x-3 
     rtl:space-x-reverse">
                     <img src="Images/Site/Pathfinder_Logo-Flat.svg" class="h-10" alt="Flowbite Logo" />
                     <span class="self-center text-m font-semibold whitespace-nowrap

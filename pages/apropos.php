@@ -1,7 +1,14 @@
-
-    <div>
-        <h1 class="whitespace-pre-line text-lg mb-3 text-center text-gray-500 dark:text-gray-400">Site de la JA de
-            Nantes</h1>
-        <h3 class="mb-3 text-center text-gray-500 dark:text-gray-400">Il à été créé par Evan Beauvivre et Noah Beauvivre
-        </h3>
-    </div>
+<div class="mt-20">
+    <main class="grid min-h-full place-items-center px-6 py-24 sm:py-32 lg:px-8">
+        <div class="text-center">
+            <p class="text-base font-semibold text-emerald-400"></p>
+            <h1 class="mt-4 text-balance text-5xl font-semibold tracking-tight text-emerald-400 sm:text-7xl">Site de la JA de Nantes
+            <p class="text-lg font-medium text-emerald-500 sm:text-xl/8">Il à été créé par Evan Beauvivre
+                et Noah Beauvivre</p>
+            <div class="mt-10 flex items-center justify-center gap-x-6">
+                <a href="mailto:evan@beauvivre.fr" class="text-sm font-semibold text-teal-400">Contacter le support <span
+                        aria-hidden="true">&rarr;</span></a>
+            </div>
+        </div>
+    </main>
+</div>

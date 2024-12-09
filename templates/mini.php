@@ -1,33 +1,35 @@
-<div class="basis-1/4">
-    <div class="p-6 bg-white
-        border border-gray-200 rounded-lg shadow dark:bg-gray-800 
-        dark:border-gray-700">
+<div class="basis-1/4 rounded-lg shadow-inner bg-teal-600">
+    <div class="p-6">
         <div class="flex flex-col sm:flex-row justify-between gap-4">
-            <div>
+            <div class="flex-1">
                 <a href="<?php echo $data->link ?>">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 
-        dark:text-white"><?php echo $data->title ?></h5>
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                        <?php echo htmlspecialchars($data->title, ENT_QUOTES, 'UTF-8'); ?>
+                    </h5>
                 </a>
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                    <?php echo $data->text ?>
+                <p class=" font-normal text-teal-950">
+                    <?php echo htmlspecialchars($data->text, ENT_QUOTES, 'UTF-8'); ?>
                 </p>
-                <?php if ($data->image): ?>
-                    <div class="mb-4 inset-y-0 right-0 sm:">
-                        <img class="fit-picture max-h-32"
-                            src="<?php echo $data->image ?>" />
-                    </div>
-                <?php endif; ?>
-                <?php if ($data->link): ?>
-                    <a href="<?php echo $data->link ?>" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center 
-                text-white bg-orange-700 rounded-lg hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 dark:bg-yellow-600 dark:hover:bg-orange-700 
-                dark:focus:ring-orange-800">
-                        <?php echo $data->linkText ?? 'Plus d\'infos' ?>
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M1 5h12m0 0L9 1m4 4L9 9" />
+            </div>
+            <?php if (!empty($data->image)): ?>
+                <div class="sm:mb-0 sm:ml-4 sm:order-last">
+                    <img class="fit-picture max-h-32 w-full object-contain rounded-lg"
+                        src="<?php echo htmlspecialchars($data->image, ENT_QUOTES, 'UTF-8'); ?>" alt="Image descriptive" />
+                </div>
+            <?php endif; ?>
+            <?php if (!empty($data->link)): ?>
+                <div class="">
+                    <a href="<?php echo htmlspecialchars($data->link, ENT_QUOTES, 'UTF-8'); ?>" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white 
+                       bg-teal-950 rounded-lg hover:teal-950 focus:ring-4 focus:outline-none focus:ring-orange-300 
+                       dark:hover:teal-950 dark:focus:ring-orange-800">
+                        <?php echo htmlspecialchars($data->linkText ?? 'Plus d\'infos', ENT_QUOTES, 'UTF-8'); ?>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                            stroke="currentColor" class="w-4 h-4 ml-2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-7-7l7 7-7 7" />
                         </svg>
                     </a>
-                <?php endif ?>
-            </div>
+                </div>
+            <?php endif; ?>
         </div>
     </div>
 </div>

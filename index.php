@@ -1,5 +1,5 @@
 <?php $page = $_GET['page'] ?>
-<?php if (!in_array($page, ['apropos', 'photo', 'planning', 'article'])) $page = 'home' ?>      
+<?php if (!in_array($page, ['apropos', 'photo', 'planning', 'article', 'home', 'index' ])) $page = '404' ?>      
 <?php require "templates/miniData.php"; ?>
 
 <!DOCTYPE html>
@@ -13,7 +13,7 @@
         <link rel="icon" href="Images/Site/Pathfinder_Logo-Flat.svg" type="image/x-icon">
     </head>
 
-    <body>
+    <body class="bg-teal-950 text-white">
         <?php include 'header.php' ?>
         <?php include "pages/$page.php" ?>
     </body>
