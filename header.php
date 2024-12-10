@@ -1,5 +1,5 @@
     <header class="bg-teal-700 from-orange-700 to-orange-100 fixed top-0 left-0 w-full border-b shadow-md z-50">
-        <dialog class="w-full backdrop:bg-gray-100 backdrop:opacity-80 rounded-lg">
+        <dialog class="w-full backdrop:bg-cyan-800 backdrop:opacity-80 rounded-lg">
             <div
                 class="p-4 font-medium bg-teal-700 md:p-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:dark:bg-gray-900 dark:border-gray-700">
                 <form class="float-right bg-teal-700" method="dialog">
