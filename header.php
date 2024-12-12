@@ -1,10 +1,10 @@
-    <header class="bg-teal-700 from-orange-700 to-orange-100 fixed top-0 left-0 w-full border-b shadow-md z-50">
-        <dialog class="w-full backdrop:bg-cyan-800 backdrop:opacity-80 rounded-lg">
+    <header class="bg-orange-700 from-orange-700 to-orange-100 fixed top-0 left-0 w-full border-b shadow-md z-50">
+        <dialog class="w-full backdrop:bg-amber-800 backdrop:opacity-80 rounded-lg">
             <div
-                class="p-4 font-medium bg-teal-700 md:p-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:dark:bg-gray-900 dark:border-gray-700">
-                <form class="float-right bg-teal-700" method="dialog">
+                class="p-4 font-medium bg-orange-700 md:p-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:dark:bg-gray-900 dark:border-gray-700">
+                <form class="float-right bg-amber-700" method="dialog">
                     <button
-                        class="right bg-teal-600 text-gray-600 hover:bg-gray-300 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:text-white"
+                        class="right bg-amber-600 text-gray-600 hover:bg-gray-300 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:text-white"
                         data-modal-hide="default-modal">
                         <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
                             viewBox="0 0 14 14">
@@ -14,7 +14,7 @@
                         <span class="sr-only">fermer</span>
                     </button>
                 </form>
-                <ul class="flex flex-col gap-2 bg-teal-700">
+                <ul class="flex flex-col gap-2 bg-orange-700">
                     <li>
                         <a href="index.php?page=home"
                             class="mb-2 text-orange-500 inline-block rounded md:bg-transparent
@@ -42,7 +42,7 @@
                 </ul>
             </div>
         </dialog>
-        <nav class="w-full  bg-teal-700">
+        <nav class="w-full  bg-amber-700">
             <div class="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="index.php?page=home" class="flex items-center space-x-3 
     rtl:space-x-reverse">

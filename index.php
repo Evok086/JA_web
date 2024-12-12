@@ -13,7 +13,7 @@
         <link rel="icon" href="Images/Site/Pathfinder_Logo-Flat.svg" type="image/x-icon">
     </head>
 
-    <body class="bg-teal-950 text-white">
+    <body class="bg-orange-950 text-white">
         <?php include 'header.php' ?>
         <?php include "pages/$page.php" ?>
     </body>

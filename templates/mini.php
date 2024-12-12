@@ -1,4 +1,4 @@
-<div class="basis-1/4 rounded-lg shadow-inner bg-teal-600">
+<div class="basis-1/4 rounded-lg shadow-inner bg-orange-600">
     <div class="p-6">
         <div class="flex flex-col sm:flex-row justify-between gap-4">
             <div class="flex-1">
@@ -20,8 +20,8 @@
             <?php if (!empty($data->link)): ?>
                 <div class="">
                     <a href="<?php echo htmlspecialchars($data->link, ENT_QUOTES, 'UTF-8'); ?>" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white 
-                       bg-teal-950 rounded-lg hover:teal-950 focus:ring-4 focus:outline-none focus:ring-orange-300 
-                       dark:hover:teal-950 dark:focus:ring-orange-800">
+                       bg-orange-950 rounded-lg hover:orange-950 focus:ring-4 focus:outline-none focus:ring-orange-300 
+                       dark:hover:orange-950 dark:focus:ring-orange-800">
                         <?php echo htmlspecialchars($data->linkText ?? 'Plus d\'infos', ENT_QUOTES, 'UTF-8'); ?>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                             stroke="currentColor" class="w-4 h-4 ml-2">
