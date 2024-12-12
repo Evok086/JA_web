@@ -7,3 +7,9 @@ service des autres.
 • Elle veut faire le maximum pour que les jeunes prennent conscience de l’enjeu écologique actuel et qu’ils deviennent acteurs dans ce monde pour le
 bien de la nature, donc de l’humanité, rentrant ainsi dans les plans du Dieu créateur pour l’homme.
 • Pour mettre en place tout cela, des méthodes actives sont mises en place dans le respect de chacun
+
+https://www.instagram.com/ja.nantes/
+
+<div class="mt-20 p-2">
+    
+</div>
