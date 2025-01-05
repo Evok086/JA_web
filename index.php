@@ -1,5 +1,5 @@
 <?php $page = $_GET['page'] ?>
-<?php if (!in_array($page, ['apropos', 'photo', 'planning', 'article', 'home', 'index' ])) $page = '404' ?>      
+<?php if (!in_array($page, ['apropos', 'photo', 'planning', 'article', 'home', 'index', 'JA' ])) $page = '404' ?>      
 <?php require "templates/miniData.php"; ?>
 
 <!DOCTYPE html>
@@ -10,12 +10,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://cdn.tailwindcss.com"></script>
         <title>JA Nantes - <?php echo $page ?></title>
-        <link rel="icon" href="Images/Site/Pathfinder_Logo-Flat.svg" type="image/x-icon">
+        <link rel="icon" href="Images/Site/logo_JA.webp" type="image/x-icon">
     </head>
 
-    <body class="bg-orange-950 text-white">
+    <body class="bg-teal-950 text-white">
         <?php include 'header.php' ?>
         <?php include "pages/$page.php" ?>
+        <?php include "footer.php" ?>
     </body>
 
 </html>
