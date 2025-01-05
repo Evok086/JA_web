@@ -1,10 +1,10 @@
 <div class="mt-20 m">
-    <h1 class="mb-4 m-4 text-balance text-3xl font-semibold tracking-tight text-teal-400 sm:text-7xl">Qu-est-ce que la
-        JA
+    <h1 class="mb-4 m-4 text-balance text-3xl font-semibold tracking-tight sm:text-7xl">Qu'est-ce que la
+        JA ?
     </h1>
     <p class="m-4">La Jeunesse Adventiste veut favoriser une rencontre personnelle, directe, simple de chaque jeune avec
         Jésus :</p>
-    <ul class="list-disc pl-7 pr-5 flex flex-col gap-2">
+    <ul class="list-disc pb-5 pl-7 pr-5 flex flex-col gap-2">
         <li class="">Elle veut aider le jeune à inscrire cette rencontre dans le vécu de son quotidien.</li>
         <li class="">Elle veut motiver les jeunes pour qu’ils deviennent des citoyens engagés dans la société
             pour

@@ -13,7 +13,7 @@
         <link rel="icon" href="Images/Site/logo_JA.webp" type="image/x-icon">
     </head>
 
-    <body class="bg-teal-950 text-white">
+    <body class="bg-stone-100 dark:bg-green-950 text-black dark:text-white">
         <?php include 'header.php' ?>
         <?php include "pages/$page.php" ?>
         <?php include "footer.php" ?>
