@@ -13,25 +13,25 @@
             <img src="Images/Site/logo_JA.webp" class="h-10 mb-4 invert dark:invert-0" alt="Logo" />
             <ul class="flex flex-col gap-2">
                 <li>
-                    <a href="index.php?page=home"
+                    <a href="/"
                         class="mb-2 text-blue-500 inline-block rounded md:bg-transparent
                 md:text-yellow-700 md:p-0 dark:text-white md:dark:text-yellow-500 hover:text-blue-500 transition-all duration-500"
                         aria-current="page">Accueil</a>
                 </li>
                 <li>
-                    <a href="index.php?page=planning"
+                    <a href="/planning"
                         class="mb-2 inline-block rounded md:bg-transparent
                 md:text-yellow-700 md:p-0 dark:text-white md:dark:text-yellow-500 hover:text-blue-500 transition-all duration-500"
                         aria-current="page">Planning</a>
                 </li>
                 <li>
-                    <a href="index.php?page=JA"
+                    <a href="/JA"
                         class="mb-2 inline-block rounded md:bg-transparent
                 md:text-yellow-700 md:p-0 dark:text-white md:dark:text-yellow-500 hover:text-blue-500 transition-all duration-500"
                         aria-current="page">JA késako ?</a>
                 </li>
                 <li>
-                    <a href="index.php?page=apropos"
+                    <a href="/apropos"
                         class="inline-block rounded md:bg-transparent
                 md:text-yellow-700 md:p-0 dark:text-white md:dark:text-yellow-500 hover:text-blue-500 transition-all duration-500"
                         aria-current="page">À Propos</a>
@@ -39,9 +39,9 @@
             </ul>
         </div>
     </dialog>
-    <nav class="w-full bg-white dark:bg-black">
+    <nav class="w-full bg-white dark:bg-black h-20 pt-1">
         <div class="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="index.php?page=home" class="flex items-center space-x-3 
+            <a href="/home" class="flex items-center space-x-3 
     rtl:space-x-reverse">
                 <div class="invert dark:invert-0">
                     <img src="Images/Site/logo_JA.webp" class="h-10" alt="Logo" />
@@ -49,13 +49,33 @@
                 <span class="self-center text-m font-semibold whitespace-nowrap text-black
         dark:text-white">JA de Nantes</span>
             </a>
-            <button onclick="document.querySelector('dialog').showModal();" class="mr-2">
+            <button onclick="document.querySelector('dialog').showModal();" class="mr-2 sm:hidden">
                 <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
                     viewBox="0 0 17 14">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M1 1h15M1 7h15M1 13h15" />
                 </svg>
             </button>
+            <div class="hidden sm:block">
+                <ul class="flex gap-10">
+                    <li>
+                        <a href="/home" class="mb-2 text-blue-500 inline-block rounded
+                dark:text-white hover:text-green-500 transition-all duration-500" aria-current="page">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="/planning" class="mb-2 inline-block rounded
+                dark:text-white hover:text-green-500 transition-all duration-500" aria-current="page">Planning</a>
+                    </li>
+                    <li>
+                        <a href="/JA" class="mb-2 inline-block rounded
+                dark:text-white hover:text-green-500 transition-all duration-500" aria-current="page">JA késako ?</a>
+                    </li>
+                    <li>
+                        <a href="/apropos" class="inline-block rounded
+                dark:text-white hover:text-green-500 transition-all duration-500" aria-current="page">À Propos</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 </header>

@@ -1,6 +1,14 @@
-<?php $page = $_GET['page'] ?>
-<?php if (!in_array($page, ['apropos', 'photo', 'planning', 'article', 'home', 'index', 'JA' ])) $page = '404' ?>      
-<?php require "templates/miniData.php"; ?>
+
+<?php
+    if (preg_match('/\.(?:png|jpg|jpeg|gif|webp)$/', $_SERVER["REQUEST_URI"])) {
+        return false;    // serve the requested resource as-is.
+    }
+    $params = explode('?', $_SERVER['REQUEST_URI']);
+    $path = explode('/', $params[0]);
+    $page = $path[1] ?? 'home';
+    if (!in_array($page, ['apropos', 'planning', 'article', 'home', 'index', 'JA' ])) $page = '404';
+    require "templates/miniData.php";
+?>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -15,7 +23,9 @@
 
     <body class="bg-stone-100 dark:bg-green-950 text-black dark:text-white">
         <?php include 'header.php' ?>
-        <?php include "pages/$page.php" ?>
+        <div class="max-w-screen-2xl mx-auto mt-20">
+            <?php include "pages/$page.php" ?>
+        </div>
         <?php include "footer.php" ?>
     </body>
 

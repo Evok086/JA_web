@@ -1,6 +1,5 @@
-<div class="mt-20">
-    <div>
-        <div class="p-5 gap-5 flex flex-col w-full">
+<div class="">
+        <div class="p-5 gap-5 flex flex-col md:flex-row w-full">
             <?php
             $racine = $_GET['mode'] == 'inactif' ? 'articlesDesactives' : 'articles';
             $dossiers = scandir($racine);
@@ -16,5 +15,4 @@
             }
             ?>
         </div>
-    </div>
 </div>

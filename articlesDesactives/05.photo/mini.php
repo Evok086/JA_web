@@ -2,6 +2,6 @@
 $data = new miniData(
     title: 'Photos',
     text: 'Des dernières activités',
-    link: 'index.php?page=photo',
+    link: '/photo',
     linkText: 'Voir les photos'
 );
