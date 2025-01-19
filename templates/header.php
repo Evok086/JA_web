@@ -10,31 +10,29 @@
                     Fermer
                 </button>
             </form>
-            <img src="Images/Site/logo_JA.webp" class="h-10 mb-4 invert dark:invert-0" alt="Logo" />
+            <img src="Images//logo_JA.webp" class="h-10 mb-4 invert dark:invert-0" alt="Logo" />
             <ul class="flex flex-col gap-2">
                 <li>
                     <a href="/"
                         class="mb-2 text-blue-500 inline-block rounded md:bg-transparent
-                md:text-yellow-700 md:p-0 dark:text-white md:dark:text-yellow-500 hover:text-blue-500 transition-all duration-500"
-                        aria-current="page">Accueil</a>
+                md:text-yellow-700 md:p-0 dark:text-white md:dark:text-yellow-500 hover:text-blue-500 transition-all duration-500">Accueil</a>
                 </li>
                 <li>
                     <a href="/planning"
                         class="mb-2 inline-block rounded md:bg-transparent
-                md:text-yellow-700 md:p-0 dark:text-white md:dark:text-yellow-500 hover:text-blue-500 transition-all duration-500"
-                        aria-current="page">Planning</a>
+                md:text-yellow-700 md:p-0 dark:text-white md:dark:text-yellow-500 hover:text-blue-500 transition-all duration-500">Planning</a>
                 </li>
                 <li>
                     <a href="/JA"
                         class="mb-2 inline-block rounded md:bg-transparent
-                md:text-yellow-700 md:p-0 dark:text-white md:dark:text-yellow-500 hover:text-blue-500 transition-all duration-500"
-                        aria-current="page">JA késako ?</a>
+                md:text-yellow-700 md:p-0 dark:text-white md:dark:text-yellow-500 hover:text-blue-500 transition-all duration-500">JA
+                        késako ?</a>
                 </li>
                 <li>
                     <a href="/apropos"
                         class="inline-block rounded md:bg-transparent
-                md:text-yellow-700 md:p-0 dark:text-white md:dark:text-yellow-500 hover:text-blue-500 transition-all duration-500"
-                        aria-current="page">À Propos</a>
+                md:text-yellow-700 md:p-0 dark:text-white md:dark:text-yellow-500 hover:text-blue-500 transition-all duration-500">À
+                        Propos</a>
                 </li>
             </ul>
         </div>
@@ -44,7 +42,7 @@
             <a href="/home" class="flex items-center space-x-3 
     rtl:space-x-reverse">
                 <div class="invert dark:invert-0">
-                    <img src="Images/Site/logo_JA.webp" class="h-10" alt="Logo" />
+                    <img src="Images/logo_JA.webp" class="h-10" alt="Logo" />
                 </div>
                 <span class="self-center text-m font-semibold whitespace-nowrap text-black
         dark:text-white">JA de Nantes</span>

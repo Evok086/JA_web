@@ -10,8 +10,8 @@
                 <a href="/home"
                     class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-teal shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Retour
                     à la page d'accueil</a>
-                <a href="mailto:evan@beauvivre.fr" class="text-sm font-semibold text-blue-400">Contacter le support <span
-                        aria-hidden="true">&rarr;</span></a>
+                <a href="mailto:evan@beauvivre.fr" class="text-sm font-semibold text-blue-400">Contacter le support
+                    <span aria-hidden="true">&rarr;</span></a>
             </div>
         </div>
     </main>

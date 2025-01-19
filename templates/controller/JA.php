@@ -26,6 +26,3 @@
             chacun</li>
     </ul>
 </div>
-<div>
-
-</div>
