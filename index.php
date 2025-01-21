@@ -31,7 +31,6 @@ foreach ($listeControllers as $unController) {
         $controller = $unController;
     }
 }
-
 if (null === $controller) {
     $controller = new App\Controllers\Error404Controller();
 }
