@@ -1,8 +1,3 @@
-<?php $annee=$_GET['annee'] ?? 2024; ?>
-<?php $photoParPage=2; ?>
-<?php $pagination=$_GET['pagination'] ?? 1; ?>
-<?php $premierePhoto=$photoParPage*($pagination-1)+1 ?>
-<?php $premierePhoto=$photoParPage*$pagination ?>
 <div class="  ">
     <button id="dropdownDefaultButton" onclick="document.getElementById('dropdown').classList.toggle('hidden')"
     class="text-white m-10 bg-amber-700 hover:bg-amber-700 focus:ring-4 focus:outline-none
@@ -18,9 +13,7 @@ items-center" type="button"><?php echo $annee; ?> <svg class="w-2.5 h-2.5 ms-3" 
 shadow w-44 dark:bg-gray-700">
         <ul class="py-2 text-sm text-gray-700 rounded-lg dark:text-gray-200 bg-amber-700"
             aria-labelledby="dropdownDefaultButton">
-            <?php $scandir = scandir("/home/aetuo/Bureau/projet/JAweb/JA_web/Images/Photos"); ?>
-            <?php foreach($scandir as $dossier):  ?>
-              <?php if (str_starts_with($dossier,'.')){continue;} ?>
+            <?php foreach($annees as $dossier):  ?>
                 <li>
                   <a href="/photo?annee=<?php echo $dossier;?>" class="block px-4 py-2 hover:bg-orange-600 dark:hover:bg-gray-600 dark:hover:text-white">
                       <?php echo $dossier;?>
@@ -30,14 +23,9 @@ shadow w-44 dark:bg-gray-700">
         </ul>
     </div>
     <div>
-      <?php $scandir = scandir("/home/aetuo/Bureau/projet/JAweb/JA_web/Images/Photos/$annee"); ?>
-            <?php $compteur=0; foreach($scandir as $photo): ?>
-              <?php if (str_starts_with($photo,'.')){continue;} $compteur++; ?>
-               <?php if ($compteur > $photoParPage ) {continue;} ?>
-           //?php if $pagination= ?>
+            <?php foreach($photos as $photo): ?>
                 <img class="" src="/Images/Photos/<?php echo $annee?>/<?php echo $photo ?>" />
             <?php endforeach; ?>
-              <?php $dernierePagination=ceil($compteur/$photoParPage); ?>
           </div>
     <div >
       <?php include 'templates/pagination.php'; ?>

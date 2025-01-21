@@ -14,6 +14,7 @@ require "Controllers/AproposController.php";
 require "Controllers/ArticleController.php";
 require "Controllers/JAController.php";
 require "Controllers/PlanningController.php";
+require "Controllers/PhotoController.php";
 $articleProvider = new App\Model\Articles\ArticleProvider();
 $articleController = new App\Controllers\ArticleController($articleProvider);
 
@@ -23,6 +24,7 @@ $listeControllers = [
     new App\Controllers\JAController(),
     $articleController,
     new App\Controllers\PlanningController(),
+    new App\Controllers\PhotoController(),
 ];
 
 $controller = null;
@@ -30,6 +32,7 @@ foreach ($listeControllers as $unController) {
     if ($unController->saitRepondre()) {
         $controller = $unController;
     }
+
 }
 if (null === $controller) {
     $controller = new App\Controllers\Error404Controller();
