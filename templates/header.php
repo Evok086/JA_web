@@ -13,7 +13,7 @@
             <img src="Images//logo_JA.webp" class="h-10 mb-4 invert dark:invert-0" alt="Logo" />
             <ul class="flex flex-col gap-2">
                 <li>
-                    <a href="/home"
+                    <a href="/"
                         class="mb-2 text-blue-500 inline-block rounded md:bg-transparent
                 md:text-yellow-700 md:p-0 dark:text-white md:dark:text-yellow-500 hover:text-blue-500 transition-all duration-500">Accueil</a>
                 </li>
