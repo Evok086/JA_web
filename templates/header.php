@@ -18,6 +18,12 @@
                 md:text-yellow-700 md:p-0 dark:text-white md:dark:text-yellow-500 hover:text-blue-500 transition-all duration-500">Accueil</a>
                 </li>
                 <li>
+                    <a href="/photo"
+                        class="mb-2 text-blue-500 inline-block rounded md:bg-transparent
+                md:text-yellow-700 md:p-0 dark:text-white md:dark:text-yellow-500 hover:text-blue-500 transition-all duration-500"
+                        aria-current="page">Photo</a>
+                </li>
+                <li>
                     <a href="/planning"
                         class="mb-2 inline-block rounded md:bg-transparent
                 md:text-yellow-700 md:p-0 dark:text-white md:dark:text-yellow-500 hover:text-blue-500 transition-all duration-500">Planning</a>
@@ -72,6 +78,10 @@
                         <a href="/apropos" class="inline-block rounded
                 dark:text-white hover:text-green-500 transition-all duration-500" aria-current="page">À Propos</a>
                     </li>
+                    <li>
+                        <a href="/photo" class="inline-block rounded
+                dark:text-white hover:text-green-500 transition-all duration-500" aria-current="page">Photos</a>
+                    </li>                
                 </ul>
             </div>
         </div>
