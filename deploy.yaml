@@ -1,0 +1,20 @@
+import: 
+  - recipe/common.php
+
+config:
+  repository: 'https://github.com/Evok086/JA_web.git'
+  shared_files:
+    - .env
+  
+hosts:
+  ssh.cluster003.hosting.ovh.net:
+    remote_user: nantesad-ja
+    http_user: nantesad
+    deploy_path: '~/ja'
+
+tasks:
+  build:
+    - run: uptime  
+
+after:
+  deploy:failed: deploy:unlock

@@ -28,6 +28,6 @@ shadow w-44 dark:bg-gray-700">
             <?php endforeach; ?>
           </div>
     <div >
-      <?php include 'templates/pagination.php'; ?>
+      <?php include $GLOBALS["templateRoot"].'/pagination.php'; ?>
 </div>
 </div>

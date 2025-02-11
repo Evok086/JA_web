@@ -5,7 +5,7 @@
             class="p-4 font-medium md:p-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:dark:bg-gray-900 dark:border-gray-700">
             <form class="float-right" method="dialog">
                 <button
-                    class="mr-2 right text-green-500 hover:bg-gray-300 hover:text-white rounded text-sm w-25 h-5 ms-auto inline-flex justify-center items-center dark:hover:text-white"
+                    class="mr-2 right text-green-500 rounded text-sm w-25 h-5 ms-auto inline-flex justify-center items-center dark:hover:text-white"
                     data-modal-hide="default-modal">
                     Fermer
                 </button>
