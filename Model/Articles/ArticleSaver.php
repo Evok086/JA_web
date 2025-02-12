@@ -6,10 +6,35 @@ class ArticleSaver
     public function __construct(private ArticleProvider $articleProvider)
     {}
 
-    public function save(Article $article): void
+    public function save(Article $nvArticle): void
     {
         $liste = $this->articleProvider->findAll();
-        $liste[] = $article;
+        $ajout = true;
+        foreach ($liste as $key => $article) {
+            if ($article->id === $nvArticle->id) {
+                $liste[$key] = $nvArticle;
+                $ajout = false;
+            }
+        }
+        if ($ajout) {
+            $liste[] = $nvArticle;
+        }
+        $this->writeJSON($liste);
+    }
+
+    public function remove(?Article $articleToRemove): void
+    {
+        $liste = $this->articleProvider->findAll();
+        foreach ($liste as $key => $article) {
+            if ($article->id === $articleToRemove->id) {
+                unset($liste[$key]);
+            }
+        }
+        $this->writeJSON($liste);
+    }
+
+    private function writeJSON(array $liste): void
+    {
         $articleAsArray = [];
         foreach($liste as $article){
             $articleAsArray[] = [
@@ -27,15 +52,6 @@ class ArticleSaver
             $this->articleProvider->getFilePath(),
             json_encode($articleAsArray)
         );
-    }
 
-    public function find(string $template): ?Article
-    {
-        foreach ($this->findAll() as $article){
-            if ($article->template === $template) {
-                return $article;
-            }
-        }
-        return null;
     }
 }

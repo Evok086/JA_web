@@ -14,7 +14,7 @@ class AproposController implements Controller, CallableController
         $title = 'À Propos';
         include(__DIR__ . '/../templates/base.php');
     }
-    public function construitUrl(array $params): string
+    public function construitUrl(array $params=[]): string
     {
         return '/apropos';
     }

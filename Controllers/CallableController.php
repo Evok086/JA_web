@@ -3,5 +3,5 @@ namespace App\Controllers;
 
 interface CallableController
 {
-    public function construitUrl(array $params): string;
+    public function construitUrl(array $params = []): string;
 }

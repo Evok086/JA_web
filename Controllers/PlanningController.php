@@ -17,7 +17,7 @@ class PlanningController implements Controller, CallableController
         $evenements = $provider->findAll();
         include(__DIR__ . '/../templates/base.php');
     }
-    public function construitUrl(array $params): string
+    public function construitUrl(array $params=[]): string
     {
         return '/planning';
     }

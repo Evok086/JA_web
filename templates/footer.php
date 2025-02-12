@@ -2,7 +2,7 @@
         <div class="w-full mx-auto p-4 md:py-8 max-w-screen-lg">
             <div class="sm:flex sm:items-center sm:justify-between">
                 <a class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse md:ml-5">
-                    <img src="Images/logo_JA.webp" class="h-8 invert dark:invert-0" alt="logo JA" />
+                    <img src="/Images/logo_JA.webp" class="h-8 invert dark:invert-0" alt="logo JA" />
                     <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">JA de
                         Nantes</span>
                 </a>

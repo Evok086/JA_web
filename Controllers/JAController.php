@@ -13,7 +13,7 @@ class JAController implements Controller, CallableController
         $title = 'JA késako';
         include(__DIR__ . '/../templates/base.php');
     }
-    public function construitUrl(array $params): string
+    public function construitUrl(array $params=[]): string
     {
         return '/JA';
     }

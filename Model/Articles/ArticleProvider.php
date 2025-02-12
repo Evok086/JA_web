@@ -21,16 +21,15 @@ class ArticleProvider
                 linkText: $articleAsArray['linkText'],
                 image: $articleAsArray['image'],
                 url: $articleAsArray['url'],
-                template: $articleAsArray['template'],
             );
         }
         return $articles;
     }
 
-    public function find(string $template): ?Article
+    public function find(string $id): ?Article
     {
         foreach ($this->findAll() as $article){
-            if ($article->template === $template) {
+            if ($article->id === $id) {
                 return $article;
             }
         }
