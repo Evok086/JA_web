@@ -5,32 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7b446f6-b4c4-49da-bc8a-7b039f71d79c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Controllers/Admin/ArticleEditor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/Admin/ArticleListe.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/Admin/ArticleSupprimator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/Articles/ArticleValidator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/UriBuilder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/erreurs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/composants/button.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/composants/buttonLink.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/controller/admin/article/editor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/controller/admin/article/liste.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/controller/pageArticle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/AdminController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/AproposController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AproposController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ArticleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/CallableController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/CallableController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/JAController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/JAController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/PlanningController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/PlanningController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Admin/ArticleSupprimator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Admin/ArticleSupprimator.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/articles.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/articles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Articles/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Articles/Article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Articles/ArticleProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Articles/ArticleProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Articles/ArticleSaver.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Articles/ArticleSaver.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/articles/04.ameb.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/controller/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/controller/admin/article/nouveau.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/controller/admin/article/liste.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/controller/admin/article/liste.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/controller/admin/article/nouveau.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/controller/admin/article/nouveau.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.php" afterDir="false" />
     </list>
@@ -45,18 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Evok086"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Evok086&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Evok086/JA_web.git",
-    "accountId": "e3495f60-eaa9-413e-b1b8-c8d2532a602e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Evok086/JA_web.git&quot;,
+    &quot;accountId&quot;: &quot;e3495f60-eaa9-413e-b1b8-c8d2532a602e&quot;
   }
-}]]></component>
+}</component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -66,22 +46,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last.edited.regexp": "",
-    "last_opened_file_path": "/home/zebulon/Projets/JA_web/templates/composants",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.scopes",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last.edited.regexp&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/zebulon/Projets/JA_web/templates/composants&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates/composants" />
@@ -95,8 +75,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-PS-243.23654.168" />
-        <option value="bundled-php-predefined-a98d8de5180a-4c3855d0ab16-com.jetbrains.php.sharedIndexes-PS-243.23654.168" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-PS-243.24978.50" />
+        <option value="bundled-php-predefined-a98d8de5180a-fbeb0b58ac0f-com.jetbrains.php.sharedIndexes-PS-243.24978.50" />
       </set>
     </attachedChunks>
   </component>
@@ -112,7 +92,9 @@
       <option name="presentableId" value="Default" />
       <updated>1739352992211</updated>
       <workItem from="1739352993735" duration="501000" />
-      <workItem from="1739353530906" duration="20107000" />
+      <workItem from="1739353530906" duration="20411000" />
+      <workItem from="1739382689869" duration="4725000" />
+      <workItem from="1739548566868" duration="1703000" />
     </task>
     <servers />
   </component>

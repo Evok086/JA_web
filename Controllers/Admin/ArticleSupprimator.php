@@ -25,7 +25,9 @@ class ArticleSupprimator implements Controller, CallableController
         if (!str_starts_with($_SERVER['REQUEST_URI'], '/admin/articles/')) {
             return false;
         }
-
+        if (!str_ends_with($_SERVER['REQUEST_URI'], '/supprimer')) {
+            return false;
+        }
         preg_match('#\/articles\/([^\/]*)/supprimer#', $_SERVER['REQUEST_URI'], $matches, PREG_OFFSET_CAPTURE);
         $this->article = $this->articleProvider->find($matches[1][0]);
 

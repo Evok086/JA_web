@@ -48,7 +48,7 @@
             <a href="/home" class="flex items-center space-x-3 
     rtl:space-x-reverse">
                 <div class="invert dark:invert-0">
-                    <img src="/Images/logo_JA.webp" class="h-10" alt="Logo" />
+                    <img src="/Images/logo-Nantes.png" class="h-10" alt="Logo" />
                 </div>
                 <span class="self-center text-m font-semibold whitespace-nowrap text-black
         dark:text-white">JA de Nantes</span>

@@ -4,7 +4,7 @@
         include($GLOBALS["templateRoot"].'/admin/article.php'); ?>
         <div class='text-right'>
             <?php $button = 'Ajouter l’article';
-            include($globals["templateroot"].'/composants/button.php'); ?>
+            include($GLOBALS["templateRoot"].'/composants/button.php'); ?>
         </div>
     </div>
 </form>
