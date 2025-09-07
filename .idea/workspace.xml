@@ -6,13 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="e7b446f6-b4c4-49da-bc8a-7b039f71d79c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Admin/ArticleSupprimator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Admin/ArticleSupprimator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Admin/ArticleEditor.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Admin/ArticleEditor.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/articles.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/articles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Articles/ArticleValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Articles/ArticleValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/article.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/erreurs.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/erreurs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/controller/admin/article/editor.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/controller/admin/article/editor.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/controller/admin/article/liste.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/controller/admin/article/liste.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/controller/admin/article/nouveau.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/controller/admin/article/nouveau.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/partial/mini.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partial/mini.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +76,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-PS-243.24978.50" />
-        <option value="bundled-php-predefined-a98d8de5180a-fbeb0b58ac0f-com.jetbrains.php.sharedIndexes-PS-243.24978.50" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PS-243.26053.13" />
+        <option value="bundled-php-predefined-a98d8de5180a-1ec7b7818973-com.jetbrains.php.sharedIndexes-PS-243.26053.13" />
       </set>
     </attachedChunks>
   </component>
@@ -95,6 +96,9 @@
       <workItem from="1739353530906" duration="20411000" />
       <workItem from="1739382689869" duration="4725000" />
       <workItem from="1739548566868" duration="1703000" />
+      <workItem from="1741014489754" duration="6631000" />
+      <workItem from="1741537001474" duration="14000" />
+      <workItem from="1757264694664" duration="807000" />
     </task>
     <servers />
   </component>

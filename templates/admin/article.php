@@ -34,8 +34,10 @@
             </svg>
             <div class="mt-4 flex text-sm/6">
                 <label for="file-upload"
-                       class="relative cursor-pointer rounded-md font-semibold text-indigo-600">
+                       class="relative cursor-pointer rounded-md font-semibold">
                     <input id="image" name="image" type="file"/>
+                    <?php $champ = 'image';
+                    include($GLOBALS["templateRoot"].'/admin/erreurs.php'); ?>
                 </label>
             </div>
         </div>

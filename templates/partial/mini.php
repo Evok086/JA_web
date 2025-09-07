@@ -8,9 +8,9 @@
                 <p class=" font-normal">
                     <?php echo htmlspecialchars($data->text, ENT_QUOTES, 'UTF-8'); ?>
                 </p>
-                <?php if (!empty($data->url)): ?>
+                <?php if (!empty($data->link)): ?>
                     <div class="">
-                        <a href="<?php echo htmlspecialchars($data->url, ENT_QUOTES, 'UTF-8'); ?>" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-gray-800 
+                        <a href="<?php echo htmlspecialchars($data->link, ENT_QUOTES, 'UTF-8'); ?>" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-gray-800
                        bg-lime-400 rounded-lg hover:lime-400 focus:ring-4 focus:outline-none focus:ring-cyan-300 
                        dark:hover:lime-400 dark:focus:ring-cyan-800 shadow shadow-black">
                             <?php echo htmlspecialchars($data->linkText ?? 'Plus d\'infos', ENT_QUOTES, 'UTF-8'); ?>

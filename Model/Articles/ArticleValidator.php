@@ -16,6 +16,9 @@ class ArticleValidator
         if (empty($article->text)) {
             $this->addError('Le champ Description est obligatoire','text');
         }
+        if (!filter_var($article->link, FILTER_VALIDATE_URL)) {
+            $this->addError('Entrez un lien !!!!!','link');
+        }
         return $this->errors;
     }
     private function addError(string $message,string $champ): void

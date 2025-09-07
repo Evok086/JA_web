@@ -39,7 +39,11 @@ class ArticleEditor implements Controller, CallableController
             $article->title = $_REQUEST["title"];
             $article->text = $_REQUEST["description"];
             $article->link = $_REQUEST["lien"];
+            $article->image = $_REQUEST["image"];
             $rapport = $this->articleValidator->validate($article);
+            $uploadDir = '/home/zebulon/Projets/JA_web/public/Images/';
+            $uploadFile = $uploadDir . basename($_FILES['image']['name']);
+            move_uploaded_file($_FILES['image']['tmp_name'], $uploadFile);
             if ($rapport === []){
                 $this->articleSaver->save($article);
                 header(sprintf("location:%s",$this->uriBuilder->build(ArticleListe::class)));

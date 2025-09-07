@@ -9,7 +9,7 @@
     </div>
     <?php foreach ($articles as $article): ?>
         <div class="basis-1/3 rounded-lg shadow-inner bg-emerald-50 dark:bg-emerald-700 shadow-black">
-            <form method='POST' class="m-8" action="<?php echo($article->urlEditor) ?>">
+            <form method='POST' enctype="multipart/form-data" class="m-8" action="<?php echo($article->urlEditor) ?>">
                 <div class="mt-10 flex flex-col gap-4">
                     <?php $data = $article;
                     include($GLOBALS["templateRoot"] . '/admin/article.php'); ?>
