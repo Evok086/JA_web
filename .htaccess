@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^(.*)$ https://ja-nantes.beauvivre.fr/ [R=301,L]

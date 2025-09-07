@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7b446f6-b4c4-49da-bc8a-7b039f71d79c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/Admin/ArticleEditor.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Admin/ArticleEditor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/articles.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/articles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Articles/ArticleValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Articles/ArticleValidator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/article.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/erreurs.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/erreurs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/controller/admin/article/editor.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/controller/admin/article/editor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/controller/admin/article/liste.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/controller/admin/article/liste.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/partial/mini.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partial/mini.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,24 +41,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last.edited.regexp&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/zebulon/Projets/JA_web/templates/composants&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last.edited.regexp": "",
+    "last_opened_file_path": "/home/zebulon/Projets/JA_web",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.scopes",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/templates/composants" />
       <recent name="$PROJECT_DIR$/templates/controller/admin/article" />
     </key>
@@ -98,7 +93,7 @@
       <workItem from="1739548566868" duration="1703000" />
       <workItem from="1741014489754" duration="6631000" />
       <workItem from="1741537001474" duration="14000" />
-      <workItem from="1757264694664" duration="807000" />
+      <workItem from="1757264694664" duration="1820000" />
     </task>
     <servers />
   </component>
